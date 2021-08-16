@@ -7,4 +7,9 @@ public class CustomerRequest {
   public CustomerRequest(Customer customer) {
     this.customer = customer;
   }
+
+  public Customer getCustomer() {
+    return customer;
+  }
+
 }
